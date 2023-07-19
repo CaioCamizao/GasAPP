@@ -15,6 +15,11 @@ class Home : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Thread.sleep(2000)
+
+        setTheme(R.style.Theme_GasApp)
+
         setContentView(R.layout.activity_home)
 
         editAlcool = findViewById(R.id.editAlcool)
